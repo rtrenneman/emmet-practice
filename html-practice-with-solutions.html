@@ -1,0 +1,181 @@
+<!--
+    Try to replicate using Emmet
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<!-- ! or html:5 -->
+
+
+
+
+<!-- 
+    Basic tags, classes, ids 
+-->
+
+
+<div></div>
+<!-- div -->
+
+
+<h1></h1>
+<!-- h1 -->
+
+
+<blockquote></blockquote>
+<!-- bq -->
+
+
+<header></header>
+<!-- hdr -->
+
+
+<footer></footer>
+<!-- ftr -->
+
+
+<button></button>
+<!-- btn -->
+
+<h1 class="class1"></h1>
+<!-- h1.class1 -->
+
+
+<div class="class1"></div>
+<!-- div.class1 or .class1 -->
+
+
+<div class="class1 class2"></div>
+<!-- div.class1.class2 -->
+
+
+<div id="myid"></div>
+<!-- div#myid or #myid -->
+
+
+<div id="myid" class="myclass"></div>
+<!-- #myid.myclass -->
+
+
+
+
+<!-- 
+    Adding Content {}
+-->
+
+
+<h1>My Title</h1>
+<!-- h1.{My Title} -->
+
+
+<h1 class="red">My Red Title</h1>
+<!-- h1.red{My Red Title} -->
+
+
+<p>
+    Click 
+    <a href="">here</a>
+    to continue
+</p>
+<!-- p>{Click }+a{here}+{ to continue} -->
+
+
+
+
+<!-- 
+    Nesting
+-->
+
+
+<div>
+    <ul>
+        <li></li>
+    </ul>
+</div>
+<!-- div>ul>li -->
+
+
+<div>
+    <ul>
+        <li>Lit Item 1</li>
+    </ul>
+</div>
+<!-- div>ul>li{List Item 1} -->
+
+
+
+
+<!-- 
+    Multiplication *
+-->
+
+
+<ul id="navigation">
+    <li>List Item 1</li>
+    <li>List Item 1</li>
+    <li>List Item 1</li>
+    <li>List Item 1</li>
+    <li>List Item 1</li>
+</ul>
+<!-- ul#navigation>li{List Item 1} -->
+
+
+<ul class="navigation">
+    <li>List Item 1</li>
+    <li>List Item 2</li>
+    <li>List Item 3</li>
+    <li>List Item 4</li>
+    <li>List Item 5</li>
+</ul>
+<!-- ul.navigation>li*5{List Item $} -->
+
+
+
+
+<!-- 
+    Siblings +
+-->
+
+
+<h1 class="title"></h1>
+<p class="body"></p>
+<!-- h1.title+p.body -->
+
+
+<div>
+    <h1 class="title"></h1>
+    <p class="body"></p>
+</div>
+<!-- div>h1.title+p.body -->
+
+
+
+
+<!-- 
+    Grouping ()
+-->
+
+
+<div>
+    <header>
+        <ul>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </ul>
+    </header>
+    <footer>
+        <p>Copyright</p>
+    </footer>
+</div>
+<!-- div>(hdr>ul>li*2>a)+ftr>p{Copyright} -->
+
