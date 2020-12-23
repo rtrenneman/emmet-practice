@@ -1,20 +1,20 @@
 p {
-    color: #000;
-    /* c */
+    color: #000000;
+    /* c:#0 */
 
-    margin: 0;  
-    /* m */
+    margin: 0;
+    /* m:0 */
 
     margin-top: 0;
-    /* mt */
+    /* mt:0 */
 
     margin-bottom: 0;
-    /* mb */
+    /* mb:0 */
 
     margin-right: 0;
-    /* mr */
+    /* mr:0 */
 
     margin-left: 0;
-    /* ml */
+    /* ml:0 */
 
 }
